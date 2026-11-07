@@ -141,6 +141,14 @@ A missing file counts as an empty store and is created by the first successful `
 Changes are written to a temporary file first and then swapped in, so a failed write
 never leaves a half-written data file.
 
+## Documentation
+
+| Document | What it covers |
+|---|---|
+| [docs/GUIDE.md](docs/GUIDE.md) | Plain-language specification: commands, field rules, data-file rules, errors |
+| [docs/CODE_WALKTHROUGH.md](docs/CODE_WALKTHROUGH.md) | Beginner-friendly tour of `products.py`, block by block, with line numbers |
+| [docs/TESTING.md](docs/TESTING.md) | Manual test checklist: each command, the expected result, and what it checks |
+
 ## How it was built
 
 - Written with Claude Code (an AI coding agent) in incremental rounds: core commands,
