@@ -1,0 +1,6 @@
+# Data files created while running the tool
+*.json
+
+# macOS and Python leftovers
+.DS_Store
+__pycache__/
